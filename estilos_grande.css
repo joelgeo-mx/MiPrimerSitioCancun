@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff;
+}
+
+#encabezado-principal {
+    background-image: url("playa.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+#menu-principal {
+    background-color: #004d66;
+    text-align: center;
+    padding: 15px;
+}
+
+#menu-principal a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+#menu-principal a:hover {
+    color: yellow;
+}
+
+.contenido {
+    background-color: white;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.seccion {
+    margin-bottom: 30px;
+}
+
+.subtitulo {
+    color: #006680;
+}
+
+.parrafo {
+    text-align: justify;
+}
+
+.video {
+    width: 600px;
+    height: 350px;
+}
+
+form input {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #004d66;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0099cc;
+}
+
+#pie-pagina {
+    background-color: #004d66;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

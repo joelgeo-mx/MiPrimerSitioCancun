@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff5e6;
+}
+
+#encabezado-principal {
+    background-color: #0099cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#menu-principal {
+    background-color: #006680;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu-principal a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+#menu-principal a:hover {
+    background-color: #0099cc;
+}
+
+.contenido {
+    padding: 15px;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #006680;
+    color: white;
+    border: none;
+}
+
+#pie-pagina {
+    background-color: #006680;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
